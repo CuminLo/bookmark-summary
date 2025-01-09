@@ -15,6 +15,8 @@ from waybackpy import WaybackMachineSaveAPI
 # -- configurations begin --
 BOOKMARK_COLLECTION_REPO_NAME: str = "bookmark-collection"
 BOOKMARK_SUMMARY_REPO_NAME: str = "bookmark-summary"
+MAX_CONTENT_LENGTH: int = 32 * 1024  # 32KB
+NO_SUMMARY_TAG: str = "#nosummary"
 # -- configurations end --
 
 logging.basicConfig(
@@ -62,7 +64,11 @@ def submit_to_wayback_machine(url: str):
 def get_text_content(url: str) -> str:
     jina_url: str = f"https://r.jina.ai/{url}"
     response: requests.Response = requests.get(jina_url)
-    return response.text
+    content = response.text
+    if len(content) > MAX_CONTENT_LENGTH:
+        logging.warning(f"Content length ({len(content)}) exceeds maximum ({MAX_CONTENT_LENGTH}), truncating...")
+        content = content[:MAX_CONTENT_LENGTH]
+    return content
 
 @log_execution_time
 def call_openai_api(prompt: str, content: str) -> str:
@@ -79,8 +85,32 @@ def call_openai_api(prompt: str, content: str) -> str:
         ]
     }
     api_endpoint: str = os.environ.get('OPENAI_API_ENDPOINT', 'https://api.openai.com/v1/chat/completions')
+    
+    # 添加请求相关日志
+    logging.info(f"Calling OpenAI API with model: {model}")
+    logging.info(f"API endpoint: {api_endpoint}")
+    
     response: requests.Response = requests.post(api_endpoint, headers=headers, data=json.dumps(data))
-    return response.json()['choices'][0]['message']['content']
+    
+    # 添加响应相关日志
+    logging.info(f"Response status code: {response.status_code}")
+    response_json = response.json()
+    logging.debug(f"Response content: {json.dumps(response_json, ensure_ascii=False)}")
+    
+    # 错误处理
+    if response.status_code != 200:
+        error_msg = f"OpenAI API request failed with status {response.status_code}"
+        logging.error(error_msg)
+        logging.error(f"Error response: {response_json}")
+        raise Exception(error_msg)
+    
+    if 'choices' not in response_json:
+        error_msg = "Response does not contain 'choices' field"
+        logging.error(error_msg)
+        logging.error(f"Full response: {response_json}")
+        raise Exception(error_msg)
+        
+    return response_json['choices'][0]['message']['content']
 
 @log_execution_time
 def summarize_text(text: str) -> str:
@@ -199,6 +229,9 @@ def process_bookmark_file():
     for line in bookmark_lines:
         match: re.Match = re.search(r'- \[(.*?)\]\((.*?)\)', line)
         if match and match.group(2) not in summarized_urls:
+            if NO_SUMMARY_TAG in line:
+                logging.debug(f"Skipping bookmark with {NO_SUMMARY_TAG} tag: {match.group(1)}")
+                continue
             title, url = match.groups()
             break
 
