@@ -40,5 +40,11 @@
     "title": "使用 macvlan 为 Docker 配置 IPv6",
     "url": "https://blog.xm.mk/posts/73f9/",
     "timestamp": 1736411960
+  },
+  {
+    "month": "202501",
+    "title": "How our ping pong startup hit $50M in 5 years using automation",
+    "url": "https://fortune.com/2024/09/27/startup-entrepreneurs-automation-ping-pong-sports-venues-tech-saas-smartphone-apps-pingpod-podplay/",
+    "timestamp": 1736412113
   }
 ]

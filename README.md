@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-09) [How our ping pong startup hit $50M in 5 years using automation](202501/2025-01-09-how-our-ping-pong-startup-hit-%2450m-in-5-years-using-automation.md)
 - (2025-01-09) [使用 macvlan 为 Docker 配置 IPv6](202501/2025-01-09-%E4%BD%BF%E7%94%A8-macvlan-%E4%B8%BA-docker-%E9%85%8D%E7%BD%AE-ipv6.md)
 - (2025-01-09) [Debian Server 初始化设置 SOP](202501/2025-01-09-debian-server-%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%BE%E7%BD%AE-sop.md)
 - (2025-01-09) [leitbogioro/Tools: Something about tools](202501/2025-01-09-leitbogioro-tools-something-about-tools.md)
