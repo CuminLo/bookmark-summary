@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-09) [How to Trade SMC: A Informational Guide for Aspiring Traders](202501/2025-01-09-how-to-trade-smc-a-informational-guide-for-aspiring-traders.md)
 - (2025-01-09) [A friendly introduction to assembly for high-level programmers — Hello](202501/2025-01-09-a-friendly-introduction-to-assembly-for-high-level-programmers-%E2%80%94-hello.md)
 - (2025-01-09) [Useful built-in macOS command-line utilities](202501/2025-01-09-useful-built-in-macos-command-line-utilities.md)
 - (2025-01-09) [Things we learned about LLMs in 2024](202501/2025-01-09-things-we-learned-about-llms-in-2024.md)
