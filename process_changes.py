@@ -62,13 +62,18 @@ def submit_to_wayback_machine(url: str):
 
 @log_execution_time
 def get_text_content(url: str) -> str:
-    jina_url: str = f"https://r.jina.ai/{url}"
-    response: requests.Response = requests.get(jina_url)
-    content = response.text
-    if len(content) > MAX_CONTENT_LENGTH:
-        logging.warning(f"Content length ({len(content)}) exceeds maximum ({MAX_CONTENT_LENGTH}), truncating...")
-        content = content[:MAX_CONTENT_LENGTH]
-    return content
+    try:
+        jina_url: str = f"https://r.jina.ai/{url}"
+        response: requests.Response = requests.get(jina_url)
+        response.raise_for_status()  # 检查HTTP状态码
+        content = response.text
+        if len(content) > MAX_CONTENT_LENGTH:
+            logging.warning(f"Content length ({len(content)}) exceeds maximum ({MAX_CONTENT_LENGTH}), truncating...")
+            content = content[:MAX_CONTENT_LENGTH]
+        return content
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Failed to fetch content from {url}: {e}")
+        raise
 
 @log_execution_time
 def call_openai_api(prompt: str, content: str) -> str:
