@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-03-03) [HK's note ✨ 小米 AX3000T 路由器刷入使用官方原版 OpenWrt / ImmortalWrt 固件](202503/2025-03-03-hk%27s-note-%E2%9C%A8-%E5%B0%8F%E7%B1%B3-ax3000t-%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9%E5%8E%9F%E7%89%88-openwrt-immortalwrt-%E5%9B%BA%E4%BB%B6.md)
 - (2025-03-03) [记录一次折腾WIFI漫游的过程 - Group B](202503/2025-03-03-%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8A%98%E8%85%BEwifi%E6%BC%AB%E6%B8%B8%E7%9A%84%E8%BF%87%E7%A8%8B---group-b.md)
 - (2025-03-03) [小米AX3000T刷不死uboot+刷openwrt系统教程](202503/2025-03-03-%E5%B0%8F%E7%B1%B3ax3000t%E5%88%B7%E4%B8%8D%E6%AD%BBuboot%2B%E5%88%B7openwrt%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B.md)
 - (2025-02-28) [小米AX3000T刷机教程](202502/2025-02-28-%E5%B0%8F%E7%B1%B3ax3000t%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B.md)
