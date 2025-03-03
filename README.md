@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-03-03) [记录一次折腾WIFI漫游的过程 - Group B](202503/2025-03-03-%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8A%98%E8%85%BEwifi%E6%BC%AB%E6%B8%B8%E7%9A%84%E8%BF%87%E7%A8%8B---group-b.md)
 - (2025-03-03) [小米AX3000T刷不死uboot+刷openwrt系统教程](202503/2025-03-03-%E5%B0%8F%E7%B1%B3ax3000t%E5%88%B7%E4%B8%8D%E6%AD%BBuboot%2B%E5%88%B7openwrt%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B.md)
 - (2025-02-28) [小米AX3000T刷机教程](202502/2025-02-28-%E5%B0%8F%E7%B1%B3ax3000t%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B.md)
 - (2025-02-20) [NAS系列 硬件选择 - Bensz](202502/2025-02-20-nas%E7%B3%BB%E5%88%97-%E7%A1%AC%E4%BB%B6%E9%80%89%E6%8B%A9---bensz.md)
