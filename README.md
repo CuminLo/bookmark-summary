@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-03-04) [全球投资开户完全指南：A股与美股篇](202503/2025-03-04-%E5%85%A8%E7%90%83%E6%8A%95%E8%B5%84%E5%BC%80%E6%88%B7%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9Aa%E8%82%A1%E4%B8%8E%E7%BE%8E%E8%82%A1%E7%AF%87.md)
 - (2025-03-03) [家庭网络小升级 Part II / 双 AP 组网实战：我的 IoT 设备怎么又双叒叕炸了](202503/2025-03-03-%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E5%B0%8F%E5%8D%87%E7%BA%A7-part-ii-%E5%8F%8C-ap-%E7%BB%84%E7%BD%91%E5%AE%9E%E6%88%98%EF%BC%9A%E6%88%91%E7%9A%84-iot-%E8%AE%BE%E5%A4%87%E6%80%8E%E4%B9%88%E5%8F%88%E5%8F%8C%E5%8F%92%E5%8F%95%E7%82%B8%E4%BA%86.md)
 - (2025-03-03) [CR8808移动版免拆机刷入红米AX3000固件 喂饭教程 – 猫点饭](202503/2025-03-03-cr8808%E7%A7%BB%E5%8A%A8%E7%89%88%E5%85%8D%E6%8B%86%E6%9C%BA%E5%88%B7%E5%85%A5%E7%BA%A2%E7%B1%B3ax3000%E5%9B%BA%E4%BB%B6-%E5%96%82%E9%A5%AD%E6%95%99%E7%A8%8B-%E2%80%93-%E7%8C%AB%E7%82%B9%E9%A5%AD.md)
 - (2025-03-03) [HK's note ✨ 小米 AX3000T 路由器刷入使用官方原版 OpenWrt / ImmortalWrt 固件](202503/2025-03-03-hk%27s-note-%E2%9C%A8-%E5%B0%8F%E7%B1%B3-ax3000t-%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7%E5%85%A5%E4%BD%BF%E7%94%A8%E5%AE%98%E6%96%B9%E5%8E%9F%E7%89%88-openwrt-immortalwrt-%E5%9B%BA%E4%BB%B6.md)
