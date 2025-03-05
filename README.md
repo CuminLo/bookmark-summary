@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-03-05) [[Openwrt编译] 2. 添加更多的软件包](202503/2025-03-05-%5Bopenwrt%E7%BC%96%E8%AF%91%5D-2.-%E6%B7%BB%E5%8A%A0%E6%9B%B4%E5%A4%9A%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%8C%85.md)
 - (2025-03-05) [用AI给女儿画了一本绘本，故事的主角就是她自己--完整教程--附完整prompt | 小耸的博客 Spencer's Blog](202503/2025-03-05-%E7%94%A8ai%E7%BB%99%E5%A5%B3%E5%84%BF%E7%94%BB%E4%BA%86%E4%B8%80%E6%9C%AC%E7%BB%98%E6%9C%AC%EF%BC%8C%E6%95%85%E4%BA%8B%E7%9A%84%E4%B8%BB%E8%A7%92%E5%B0%B1%E6%98%AF%E5%A5%B9%E8%87%AA%E5%B7%B1--%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B--%E9%99%84%E5%AE%8C%E6%95%B4prompt-%E5%B0%8F%E8%80%B8%E7%9A%84%E5%8D%9A%E5%AE%A2-spencer%27s-blog.md)
 - (2025-03-04) [我的家庭网络设计思路，开启debian的旁路由之路（一）](202503/2025-03-04-%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF%EF%BC%8C%E5%BC%80%E5%90%AFdebian%E7%9A%84%E6%97%81%E8%B7%AF%E7%94%B1%E4%B9%8B%E8%B7%AF%EF%BC%88%E4%B8%80%EF%BC%89.md)
 - (2025-03-04) [全球投资开户完全指南：A股与美股篇](202503/2025-03-04-%E5%85%A8%E7%90%83%E6%8A%95%E8%B5%84%E5%BC%80%E6%88%B7%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9Aa%E8%82%A1%E4%B8%8E%E7%BE%8E%E8%82%A1%E7%AF%87.md)
