@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-03-14) [Why Go's Error Handling is Awesome](202503/2025-03-14-why-go%27s-error-handling-is-awesome.md)
 - (2025-03-14) [Visual programming is stuck on the form](202503/2025-03-14-visual-programming-is-stuck-on-the-form.md)
 - (2025-03-13) [我的智能家居监控方案:打造自主、安全、可控的摄像头](202503/2025-03-13-%E6%88%91%E7%9A%84%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85%E7%9B%91%E6%8E%A7%E6%96%B9%E6%A1%88-%E6%89%93%E9%80%A0%E8%87%AA%E4%B8%BB%E3%80%81%E5%AE%89%E5%85%A8%E3%80%81%E5%8F%AF%E6%8E%A7%E7%9A%84%E6%91%84%E5%83%8F%E5%A4%B4.md)
 - (2025-03-05) [[Openwrt编译] 2. 添加更多的软件包](202503/2025-03-05-%5Bopenwrt%E7%BC%96%E8%AF%91%5D-2.-%E6%B7%BB%E5%8A%A0%E6%9B%B4%E5%A4%9A%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%8C%85.md)
