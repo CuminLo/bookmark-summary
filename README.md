@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-04-15) [如何聪明地提问 --- How To Ask Questions The Smart Way](202504/2025-04-15-%E5%A6%82%E4%BD%95%E8%81%AA%E6%98%8E%E5%9C%B0%E6%8F%90%E9%97%AE-----how-to-ask-questions-the-smart-way.md)
 - (2025-04-02) [小米AX3000T（固件1.0.90）刷 openwrt](202504/2025-04-02-%E5%B0%8F%E7%B1%B3ax3000t%EF%BC%88%E5%9B%BA%E4%BB%B61.0.90%EF%BC%89%E5%88%B7-openwrt.md)
 - (2025-03-27) [京东云 AX1800 Pro 路由器(亚瑟)刷入 u-boot 和 OpenWrt - Phyng 的博客](202503/2025-03-27-%E4%BA%AC%E4%B8%9C%E4%BA%91-ax1800-pro-%E8%B7%AF%E7%94%B1%E5%99%A8%28%E4%BA%9A%E7%91%9F%29%E5%88%B7%E5%85%A5-u-boot-%E5%92%8C-openwrt---phyng-%E7%9A%84%E5%8D%9A%E5%AE%A2.md)
 - (2025-03-14) [Why Go's Error Handling is Awesome](202503/2025-03-14-why-go%27s-error-handling-is-awesome.md)
