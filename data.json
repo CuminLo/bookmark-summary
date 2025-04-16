@@ -190,5 +190,11 @@
     "title": "如何聪明地提问 --- How To Ask Questions The Smart Way",
     "url": "http://www.catb.org/esr/faqs/smart-questions.html",
     "timestamp": 1744698281
+  },
+  {
+    "month": "202504",
+    "title": "docker 中安装 openwrt 并作为旁路由 – 夏至",
+    "url": "https://mxenc.com/2025/04/04/docker_install_openwrt_and_use_as_bypass_router/",
+    "timestamp": 1744775862
   }
 ]
