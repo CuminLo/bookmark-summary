@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-04-18) [市场结构入门 --- Market Structure Primer](202504/2025-04-18-%E5%B8%82%E5%9C%BA%E7%BB%93%E6%9E%84%E5%85%A5%E9%97%A8-----market-structure-primer.md)
 - (2025-04-16) [docker 中安装 openwrt 并作为旁路由 – 夏至](202504/2025-04-16-docker-%E4%B8%AD%E5%AE%89%E8%A3%85-openwrt-%E5%B9%B6%E4%BD%9C%E4%B8%BA%E6%97%81%E8%B7%AF%E7%94%B1-%E2%80%93-%E5%A4%8F%E8%87%B3.md)
 - (2025-04-15) [如何聪明地提问 --- How To Ask Questions The Smart Way](202504/2025-04-15-%E5%A6%82%E4%BD%95%E8%81%AA%E6%98%8E%E5%9C%B0%E6%8F%90%E9%97%AE-----how-to-ask-questions-the-smart-way.md)
 - (2025-04-02) [小米AX3000T（固件1.0.90）刷 openwrt](202504/2025-04-02-%E5%B0%8F%E7%B1%B3ax3000t%EF%BC%88%E5%9B%BA%E4%BB%B61.0.90%EF%BC%89%E5%88%B7-openwrt.md)
