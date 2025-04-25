@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-04-25) [线上故障应急处理：4 年多 on call 经验总结](202504/2025-04-25-%E7%BA%BF%E4%B8%8A%E6%95%85%E9%9A%9C%E5%BA%94%E6%80%A5%E5%A4%84%E7%90%86%EF%BC%9A4-%E5%B9%B4%E5%A4%9A-on-call-%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.md)
 - (2025-04-18) [Suffering-oriented programming - thoughts from the red planet - thoughts from the red planet](202504/2025-04-18-suffering-oriented-programming---thoughts-from-the-red-planet---thoughts-from-the-red-planet.md)
 - (2025-04-18) [计算机网络简介 --- An Introduction to Computer Networks](202504/2025-04-18-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AE%80%E4%BB%8B-----an-introduction-to-computer-networks.md)
 - (2025-04-18) [市场结构入门 --- Market Structure Primer](202504/2025-04-18-%E5%B8%82%E5%9C%BA%E7%BB%93%E6%9E%84%E5%85%A5%E9%97%A8-----market-structure-primer.md)

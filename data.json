@@ -214,5 +214,11 @@
     "title": "Suffering-oriented programming - thoughts from the red planet - thoughts from the red planet",
     "url": "http://nathanmarz.com/blog/suffering-oriented-programming.html",
     "timestamp": 1744962894
+  },
+  {
+    "month": "202504",
+    "title": "线上故障应急处理：4 年多 on call 经验总结",
+    "url": "https://jt26wzz.com/posts/0007-online-firefighting-real-world-lessions-from-4-years-on-call/",
+    "timestamp": 1745549736
   }
 ]
