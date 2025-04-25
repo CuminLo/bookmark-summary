@@ -220,5 +220,11 @@
     "title": "线上故障应急处理：4 年多 on call 经验总结",
     "url": "https://jt26wzz.com/posts/0007-online-firefighting-real-world-lessions-from-4-years-on-call/",
     "timestamp": 1745549736
+  },
+  {
+    "month": "202504",
+    "title": "Build Systems, Not Heroes",
+    "url": "https://vitonsky.net/blog/2024/10/11/system-approach/",
+    "timestamp": 1745562225
   }
 ]
