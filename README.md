@@ -2,6 +2,7 @@
 读取 bookmark-collection 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 bookmark-collection 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-05-12) [套利，为乐趣和利润 --- Arbitrage for Fun and Profit](202505/2025-05-12-%E5%A5%97%E5%88%A9%EF%BC%8C%E4%B8%BA%E4%B9%90%E8%B6%A3%E5%92%8C%E5%88%A9%E6%B6%A6-----arbitrage-for-fun-and-profit.md)
 - (2025-05-12) [Wish or reality? On the exploitability of triangular arbitrage in cryptocurrency markets](202505/2025-05-12-wish-or-reality-on-the-exploitability-of-triangular-arbitrage-in-cryptocurrency-markets.md)
 - (2025-05-12) [JDCloud AX6600（雅典娜） 刷机记录](202505/2025-05-12-jdcloud-ax6600%EF%BC%88%E9%9B%85%E5%85%B8%E5%A8%9C%EF%BC%89-%E5%88%B7%E6%9C%BA%E8%AE%B0%E5%BD%95.md)
 - (2025-05-10) [How I Set Up New MacBooks](202505/2025-05-10-how-i-set-up-new-macbooks.md)
